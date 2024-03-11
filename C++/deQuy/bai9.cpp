@@ -9,7 +9,7 @@ ll power(ll a,ll n){
     return ((res%mod)*(res%mod))%mod;
   }
   else{
-    return (((res%mod)*(res%mod))%mod*a%mod)%mod;
+    return (((res%mod)*(res%mod))%mod*(a%mod))%mod;
   }
 }
 int main(){
